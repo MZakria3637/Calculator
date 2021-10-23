@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:rowCount="6" >
+
+  <TextView
+
+      android:layout_height="wrap_content"
+      android:layout_rowSpan="3"
+      android:layout_columnSpan="4"
+      android:layout_gravity="fill_horizontal"
+      android:paddingRight="15dp"
+      android:height="113dp"
+      android:background="#EEEEEE"
+      android:gravity="center_vertical|end"
+
+      android:text="@string/result"
+      android:textColor="@color/black"
+      android:textSize="40sp" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+
+
+      android:text="@string/seven"
+      android:textColor="@color/black"
+      android:textSize="40sp"
+
+     android:background="@drawable/button"
+
+      />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+      android:textColor="@color/black"
+      android:textSize="40sp"
+     android:background="@drawable/button"
+
+
+
+
+
+
+      android:text="@string/eight" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+      android:textColor="@color/black"
+      android:textSize="40sp"
+     android:background="@drawable/button"
+
+
+
+
+
+
+      android:text="@string/nine" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+      android:textColor="@color/black"
+      android:textSize="40sp"
+     android:background="@drawable/button"
+
+
+
+
+
+
+      android:text="@string/divide" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+      android:textColor="@color/black"
+      android:textSize="40sp"
+     android:background="@drawable/button"
+
+
+      android:text="@string/four" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+      android:textColor="@color/black"
+      android:textSize="40sp"
+     android:background="@drawable/button"
+
+
+
+
+
+
+      android:text="@string/five" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+      android:textColor="@color/black"
+      android:textSize="40sp"
+     android:background="@drawable/button"
+
+
+
+
+
+      android:text="@string/six" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+      android:textColor="@color/black"
+      android:textSize="40sp"
+     android:background="@drawable/button"
+
+
+
+
+
+
+      android:text="@string/multiply" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+      android:textColor="@color/black"
+      android:textSize="40sp"
+     android:background="@drawable/button"
+
+
+
+
+
+
+      android:text="@string/one" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+      android:textColor="@color/black"
+      android:textSize="40sp"
+     android:background="@drawable/button"
+
+
+
+
+
+      android:text="@string/two" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+      android:background="@drawable/button"
+
+      android:text="@string/three"
+      android:textColor="@color/black"
+
+
+      android:textSize="40sp" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+      android:textColor="@color/black"
+      android:textSize="40sp"
+     android:background="@drawable/button"
+
+
+
+
+
+      android:text="@string/subtract" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+      android:textColor="@color/black"
+      android:textSize="40sp"
+     android:background="@drawable/button"
+
+
+
+
+
+
+      android:text="@string/dot" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+      android:textColor="@color/black"
+      android:textSize="40sp"
+     android:background="@drawable/button"
+
+
+
+
+
+
+      android:text="@string/zero" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+
+      android:background="@drawable/button"
+      android:text="@string/C"
+
+
+      android:textColor="@color/black"
+      android:textSize="40sp" />
+
+  <Button
+      android:height="113dp"
+      android:width="98dp"
+
+
+      android:textColor="@color/black"
+      android:textSize="40sp"
+     android:background="@drawable/button"
+
+
+
+
+
+      android:text="@string/plus" />
+
+  <Button
+
+      android:height="113dp"
+      android:textColor="@color/black"
+      android:textSize="40sp"
+     android:background="@drawable/button"
+
+
+
+
+      android:layout_columnSpan="4"
+      android:layout_gravity="fill_horizontal"
+      android:text="@string/equal" />
+
+
+
+
+</GridLayout>
+</RelativeLayout>
