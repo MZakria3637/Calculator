@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/button"
+        android:gravity="center_vertical|end"
+        android:paddingRight="15dp"
+        android:paddingLeft="0dp"
+        android:paddingEnd="0dp"
+        android:paddingStart="0dp"
+        android:text="@string/result"
+        android:textSize="40sp"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="40sp"
+            android:width="90dp"
+            android:height="120dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:id="@+id/button2"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:text="@string/seven" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+             android:textSize="40sp"
+             android:width="90dp"
+             android:height="120dp"
+             android:textColor="@color/black"
+             android:background="@drawable/button"
+             android:id="@+id/button3"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+             android:layout_weight="1"
+             android:text="@string/eight" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+             android:textSize="40sp"
+             android:width="90dp"
+             android:height="120dp"
+             android:textColor="@color/black"
+             android:background="@drawable/button"
+             android:id="@+id/button4"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+             android:layout_weight="1"
+             android:text="@string/nine" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="40sp"
+            android:width="90dp"
+            android:height="120dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:id="@+id/button"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:text="@string/divide" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="40sp"
+            android:width="90dp"
+            android:height="120dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:id="@+id/button5"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:text="@string/four" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="40sp"
+            android:width="90dp"
+            android:height="120dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:id="@+id/button6"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:text="@string/five" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="40sp"
+            android:width="90dp"
+            android:height="120dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:id="@+id/button7"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:text="@string/six" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="40sp"
+            android:width="90dp"
+            android:height="120dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:id="@+id/button8"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:text="@string/multiply" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+             android:textSize="40sp"
+             android:width="90dp"
+             android:height="120dp"
+             android:textColor="@color/black"
+             android:background="@drawable/button"
+             android:layout_width="90dp"
+             android:layout_height="120dp"
+             android:layout_weight="1"
+             android:text="@string/one" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="40sp"
+            android:width="90dp"
+            android:height="120dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:text="@string/two" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="40sp"
+            android:width="90dp"
+            android:height="120dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:text="@string/three" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="40sp"
+            android:width="90dp"
+            android:height="120dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:text="@string/subtract" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="40sp"
+            android:width="90dp"
+            android:height="120dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:text="@string/dot" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="40sp"
+            android:width="90dp"
+            android:height="120dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:text="@string/zero" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="40sp"
+            android:width="90dp"
+            android:height="120dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:text="@string/C" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="40sp"
+            android:width="90dp"
+            android:height="120dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:text="@string/plus" />
+    </LinearLayout>
+    <Button
+         style="?android:attr/borderlessButtonStyle"
+         android:height="120dp"
+         android:textSize="40sp"
+         android:textColor="@color/black"
+         android:background="@drawable/button"
+         android:layout_width="match_parent"
+         android:layout_height="120dp"
+        android:text="@string/equal"
+        />
+</LinearLayout>
